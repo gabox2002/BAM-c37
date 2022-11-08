@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -19,27 +23,31 @@
         </nav>
     </header>
     <main>
-        <h1> Formulario de Productos</h1>
+        <h1 class="micolor"> 
+            Formulario de Productos
+
+        </h1>
         <form action="./guardar" method="post">
-            <label for="Nombre"> Nombre: </label>
-            <input type="text" name="nombre" id="nombre">
-            <br>
-
-            <label for="Teléfono"> Teléfono: </label>
-            <input type="number" name="telefono" id="telefono">
-            <br>
-
-            <label for="email"> Email: </label>
-            <input type="email" name="email" id="email">
-            <br>
-
-            <label for="password"> Contraseña: </label>
-            <input type="password" name="password" id="password">
-            <br>
-
-            <input type="reset" value="Borrar Campos">
-            <input type="submit" value="Enviar Datos">
-            
+            <div class="formulario">
+                <label for="Nombre"> Nombre: </label>
+                <input class="dato" type="text" name="nombre" id="nombre">
+            </div>
+            <div class="formulario">
+                <label for="Teléfono"> Teléfono: </label>
+                <input class="dato" type="number" name="telefono" id="telefono">
+            </div>
+            <div class="formulario">
+                <label for="email"> Email: </label>
+                <input class="dato" type="email" name="email" id="email">
+            </div>
+            <div class="formulario">
+                <label for="password"> Contraseña: </label>
+                <input class="dato" type="password" name="password" id="password">
+            </div>
+            <div class="formulario">
+                <input type="reset" value="Borrar Campos">
+                <input type="submit" value="Enviar Datos">
+            </div>
          </form>
     </main>
     
