@@ -10,7 +10,6 @@ header{
 h1 {
     color: yellow ;
 }
-
 .micolor{
     color: blue;
     text-align: center;
@@ -39,15 +38,17 @@ h1 {
 #miid {
         color: white;
 }
+
 .formulario{
     margin-top: 30px;
     margin-left: 50px;
 }
+
 .dato{
     width: 80%;
     height: 50px;
-<<<<<<< HEAD
 }
-=======
-    }
->>>>>>> 9dc1429f501cdf9eb87803abc076e41c764207d1
+
+
+
+
