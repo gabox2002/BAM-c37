@@ -1,5 +1,10 @@
 
 console.log("trabajamos con JavaScript y Node.Js");
+console.log("trabajamos con JavaScript y Node.Js");
+console.log("trabajamos con JavaScript y Node.Js");
+console.log("trabajamos con JavaScript y Node.Js");
+
+
 
 //condicionales
 
