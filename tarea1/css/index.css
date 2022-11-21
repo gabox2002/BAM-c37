@@ -104,3 +104,16 @@ body
     width: 80%;
     height: 50px;
     }
+
+/*responsive */
+@media screen and (min-width: 0px) and (max-width: 700px) { 
+    .header{
+        background: rgb(8, 6, 6);
+        color: red;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    body{
+        background: red;
+    }
+}
