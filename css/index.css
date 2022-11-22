@@ -11,7 +11,7 @@ html{
 
 body 
 {
-    background-image: url(/imagenes/fondopantallaazul.jpg) ;
+    background-image: url("../imagenes/fondopantallaazul.jpg") ;
     
     background-size: 100vw 100vh; 
     /* 100vw y 100vh la imagen escala hasta 100%de alto y de ancho */
