@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet">
+
+    <script src="./js/index.js"></script>
+
+    <title>Viniloversus</title>
+</head>
+
+<body>
+    <header class="header margen">
+        <div class="logo">
+            <a href="../index.html" class="linklogo">
+                <img src="../imagenes/vinilologo.jpg" alt="imagen">
+
+            </a>
+        </div>
+    </header>
+   
+        <nav class="navbar margen">
+            <ul class="menuprincipal">
+                <li> <a href="biografia.html"> Biografía </a></li>
+                <li> <a href="discografia.html"> Discografía </a></li>
+                <li> <a href="tour.html"> Tour </a></li>
+                <li> <a href="contactos.html"> Contactos </a></li>  
+            </ul>
+        </nav>
+    
+<main>
+  
+
+    <h1 class="micolor"> 
+        Formulario de contacto
+
+    </h1>
+    <form class="micolor dato" action="./guardar" method="post">
+        <div class="formulario">
+            <label for="Nombre"> Nombre: </label>
+            <input class="dato" type="text" name="nombre" id="nombre">
+        </div>
+        <div class="formulario">
+            <label for="Teléfono"> Teléfono: </label>
+            <input class="dato" type="number" name="telefono" id="telefono">
+        </div>
+        <div class="formulario">
+            <label for="email"> Email: </label>
+            <input class="dato" type="email" name="email" id="email">
+        </div>
+        <div class="formulario">
+            <label for="message"> Mensaje: </label>
+            <input class="dato" type="text" name="password" id="password">
+        </div>
+        
+        <div>
+        <br><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeucrQUAAAAADb4U6WmsB270d1SCL3MeofXMrCh&amp;co=aHR0cHM6Ly9jYW5keTY2LmNvbTo0NDM.&amp;hl=es&amp;v=Km9gKuG06He-isPsP6saG8cn&amp;theme=light&amp;size=normal&amp;cb=38roeugk8024" width="304" height="78" role="presentation" name="a-ydn9awgdbb1g" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+        </div>
+
+        <div class="formulario">
+        <input type="reset" value="Borrar Campos">
+        <input type="submit" value="Enviar Datos">
+        </div>
+</form>
+</main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>

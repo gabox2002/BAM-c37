@@ -11,7 +11,7 @@ html{
 
 body 
 {
-    background: rgb(49, 69, 252);
+    background: rgb(64, 64, 240) ;
 }
 
 .header{
@@ -63,13 +63,13 @@ body
 
 }
 .destacado, .default{
-    background: white;
+    background: rgb(212, 212, 212);
     padding: 0.7em;
 }
 
 
 .micolor{
-    color: blue;
+    color: rgb(0, 0, 56);
     text-align: center;
 }
 
@@ -91,7 +91,7 @@ body
     margin-bottom: 100px;
     margin-left: 40px;
     font-family: Roboto;
-}
+ }
 
 #miid {
         color: white;
@@ -105,6 +105,70 @@ body
     height: 50px;
     }
 
+.discografia{
+background-color: black;
+display: flex;
+color:white
+justify-content: center;
+}
+
+.box {
+    background-color: #000000;
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+.contenedor1 {
+    position: absolute ;
+    top:200px;
+    left:120px;
+    width:240px;
+    height: 550px;
+    margin-top:20px;
+    background-color:#29f1f8;
+    }
+        
+.contenedor2{
+    
+    top: 200px;
+    width: 240px;
+    height: 550px;
+    margin-left:500px;
+    margin-right:200px;
+    margin-top: 30px;
+    background-color:#c3fafc;
+        }
+
+.container1 {
+    top:200px;
+    left:120px;
+    width:1000px;
+    height: 400px;
+    margin-top:20px;
+    background-color:#c3fafc;
+    }
+
+.container2{
+    top: 600px;
+    width: 1000px;
+    height: 370px;
+    margin-left:500px;
+    margin-right:200px;
+    margin-top: 30px;
+    background-color:#c3fafc;
+    }
+
+.container3{
+    top: 200px;
+    width: 1000px;
+    height: 370px;
+    margin-left:0px;
+    margin-right:200px;
+    margin-top: 30px;
+    background-color:#c3fafc;
+    }    
+
 /*responsive */
 @media screen and (min-width: 0px) and (max-width: 700px) { 
     .header{
@@ -116,4 +180,5 @@ body
     body{
         background: red;
     }
-}
+
+   
