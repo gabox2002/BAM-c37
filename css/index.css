@@ -11,7 +11,7 @@ html{
 
 body 
 {
-    background-image: url("../imagenes/fondopantallaazul.jpg") ;
+    background-image: url("../imagenes/backlienzo-azul_1920x1080_xtrafondos.com.jpg") ;
     
     background-size: 100vw 100vh; 
     /* 100vw y 100vh la imagen escala hasta 100%de alto y de ancho */
@@ -65,19 +65,19 @@ body
 
 }
 .navbar ul li a:hover {
-    background: white;
-    color: rgb(6, 17, 117);
+    background: black;
+    color: rgb(44, 187, 253);
 
 }
 #portada {
     width: 70%;
-    background: rgba(0, 0, 253, 0.4);
+    background: rgba(7, 175, 241, 0.4);
     padding: 1.6em;
     box-sizing: border-box;
 
 }
 .destacado, .default{
-    background: #c3fafc;
+    background: rgba(7, 175, 241, 0.4);
     padding: 0.7em;
     border-radius: 4em
 }
@@ -112,13 +112,25 @@ body
 
 .formulario{
     width: 450px;
-    margin: auto;
-    background: rgba(0, 0, 253, 0.4);
+    margin: auto;   
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 20px;
 }
-
+.music{
+    width:900px;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.music2{
+    width:900px; 
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background:  rgba(7, 175, 241, 0.4);
+}
 .hform{
     color: white;
     text-align: center;
@@ -154,10 +166,9 @@ textarea {
 
 
 .discografia{
-background-color: black;
 display: flex;
-color:white
 justify-content: center;
+
 }
 
 .box {
@@ -167,17 +178,17 @@ justify-content: center;
     text-align: left;
 }
 
-.contenedor1 {
+.tour1 {
     position: absolute ;
     top:200px;
     left:120px;
     width:240px;
     height: 550px;
     margin-top:20px;
-    background-color:#c3fafc;
+  
     }
         
-.contenedor2{
+.tour2{
     
     top: 200px;
     width: 240px;
@@ -185,8 +196,16 @@ justify-content: center;
     margin-left:500px;
     margin-right:200px;
     margin-top: 30px;
-    background-color:#c3fafc;
+    
         }
+.biografia{
+    width:900px;
+    margin: auto;
+    background: rgba(0, 0, 253, 0.4);
+    padding: 0px 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
 
 .container1 {
     top:200px;
@@ -195,7 +214,7 @@ justify-content: center;
     height: 400px;
     margin-top:30px;
     margin-left: 150px;
-    background-color:#c3fafc;
+   
     }
 
 .container2{
@@ -205,7 +224,7 @@ justify-content: center;
     margin-left: 500px;;
     margin-right: ;
     margin-top: 30px;
-    background-color:#c3fafc;
+    
     }
 
 .container3{
@@ -214,7 +233,7 @@ justify-content: center;
     height: 370px;
     margin-left:150px;    
     margin-top: 30px;
-    background-color:#c3fafc;
+    
     }    
 
 .footer{
