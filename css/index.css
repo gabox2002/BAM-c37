@@ -29,11 +29,15 @@ body
     color: rgb(12, 8, 8);
     height: 140px;
     margin-bottom: 10px;
+    width: 100%;
+    
 }
 .margen{
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    ;
 }
 .logo{
     text-transform: uppercase;
@@ -62,19 +66,20 @@ body
 }
 .navbar ul li a:hover {
     background: white;
-    color: rgb(13, 6, 117);
+    color: rgb(6, 17, 117);
 
 }
 #portada {
     width: 70%;
-    background: rgb(1, 0, 82);
+    background: rgba(0, 0, 253, 0.4);
     padding: 1.6em;
     box-sizing: border-box;
 
 }
 .destacado, .default{
-    background: rgb(212, 212, 212);
+    background: #c3fafc;
     padding: 0.7em;
+    border-radius: 4em
 }
 
 
@@ -108,10 +113,10 @@ body
 .formulario{
     width: 450px;
     margin: auto;
-    background: rgba(0,0, 0, 0.4);
+    background: rgba(0, 0, 253, 0.4);
     padding: 10px 20px;
     margin-top: 20px;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 .hform{
@@ -169,7 +174,7 @@ justify-content: center;
     width:240px;
     height: 550px;
     margin-top:20px;
-    background-color:#29f1f8;
+    background-color:#c3fafc;
     }
         
 .contenedor2{
@@ -188,7 +193,8 @@ justify-content: center;
     left:120px;
     width:1000px;
     height: 400px;
-    margin-top:20px;
+    margin-top:30px;
+    margin-left: 150px;
     background-color:#c3fafc;
     }
 
@@ -196,8 +202,8 @@ justify-content: center;
     top: 600px;
     width: 1000px;
     height: 370px;
-    margin-left:500px;
-    margin-right:200px;
+    margin-left: 500px;;
+    margin-right: ;
     margin-top: 30px;
     background-color:#c3fafc;
     }
@@ -206,8 +212,7 @@ justify-content: center;
     top: 200px;
     width: 1000px;
     height: 370px;
-    margin-left:0px;
-    margin-right:200px;
+    margin-left:150px;    
     margin-top: 30px;
     background-color:#c3fafc;
     }    
@@ -227,12 +232,12 @@ justify-content: center;
 @media screen and (min-width: 0px) and (max-width: 700px) { 
     .header{
         background: rgb(8, 6, 6);
-        color: red;
+        color: rgb(0, 81, 255);
         height: 140px;
         margin-bottom: 10px;
     }
     body{
-        background: red;
+        background: rgb(0, 47, 255);
     }
     form{
         width: 100%;
