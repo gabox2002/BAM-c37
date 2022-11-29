@@ -1,6 +1,0 @@
-Pasos para una App web
-1. Sketch Web
-2. Wireframe
-3. Prototipo Estático
-4. Prototipo Dinámico
-5. Deploy
