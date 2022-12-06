@@ -3,124 +3,2212 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/css/bootstrap-reboot.min.css.map">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Drago y Arya</title>
 
-    <title>Bootstrap demo</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+
+    <link href="../css/css/bootstrap-5.2.3-examples/bootstrap-5.2.3-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+<link href="../css/css/bootstrap-5.2.3-examples/bootstrap-5.2.3-examples/cover/cover.css" rel="stylesheet">
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg bg-info">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
     
-    <main>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../imagenes/descarga.jpg" class="d-block w-100" alt="" width="640" height="480">
-              </div>
-              <div class="carousel-item">
-                <img src="../imagenes/images.jpg" class="d-block w-100" alt=""width="640" height="480">
-              </div>
-              <div class="carousel-item">
-                <img src="../imagenes/images2.jpg" class="d-block w-100" alt="" width="640" height="480">
-              </div>
-            </div>
-          </div>
-    </main>
-  
-    <div class="container bg-info">
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                  <button class="btn btn-primary" type="button">Subscribe</button>
-                </div>
-              </form>
-            </div>
-          </div>
-      
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-            </ul>
-          </div>
-        </footer>
+<header >
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">Sobre Nosotros</h4>
+          <p class="text-muted"> Somos un emprendimiento canino surgido en 2020 con Drago y Arya, donde fomentamos el uso de juguetes interactivos para nuestros perris. Esto es nuevo para nosotros y nos encanta ver la felicidad de llegar a la casa y saber que nuestr@s amig@s nos esperan emocionados y más cuando les traemos un regalito. </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contacto</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://www.instagram.com/drago.arya" class="text-white">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@drago.arya" class="text-white">TikTok</a></li>
+            <li><a href="https://www.youtube.com/@dragoyarya981" class="text-white">YouTube</a></li>
+            <li><a href="https://api.whatsapp.com/message/QZOHX466X4XYB1?autoload=1&app_absent=0" class="text-white">WhatsApp</a></li>
+          </ul>
+        </div>
       </div>
-    <!-- JavaScript Bundle with Pooper -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    </div>
+    
+  </div>
+  
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="../index.html" class="navbar-brand">
+        <img src="../imagenes/logo dragoyarya.jpg" alt="Logotipo" width="80" height="50">        <strong>DRAGOYARYA</strong>
+      </a>
+      
+    <section class="cover-container d-flex w-100 h-100 p-3 mx-auto justify-content-end">
+      <div class="mb-auto">
+        <div class="nav nav-masthead justify-content-end float-md-end">
+        <a class="nav-link fw-bold py-1 px-0 " aria-current="page" href="../index.html">Inicio</a>
+        <a class="nav-link fw-bold py-1 px-0 active" href="./productos.html">Productos</a>
+        <a class="nav-link fw-bold py-1 px-0" href="./contactos.html">Contacto</a>
+        </div>
+      </div>&nbsp &nbsp &nbsp
+       
+      <div>  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>  
+      
+      
+      
+      
+    </section>
+    </div>
+</nav>
+</header>
 
+
+<main>
+    <div class="album py-5 bg-light" style="background-image: url(../imagenes/fondohuellasrosa.png)">
+
+<section class="product-tabs section-padding position-relative wow fadeIn animated animated animated" style="visibility: visible;">
+    
+    <div class="container ">
+        <div class="tab-header nav nav-tabs bg-dark nav-masthead justify-content-center">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="nav-tab-one" data-bs-toggle="tab" data-bs-target="#tab-one" type="button" role="tab" aria-controls="tab-one" aria-selected="true">Alfombras</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nav-tab-two" data-bs-toggle="tab" data-bs-target="#tab-two" type="button" role="tab" aria-controls="tab-two" aria-selected="false">Dispensadores</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nav-tab-three" data-bs-toggle="tab" data-bs-target="#tab-three" type="button" role="tab" aria-controls="tab-three" aria-selected="false">Sogas</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nav-tab-four" data-bs-toggle="tab" data-bs-target="#tab-four" type="button" role="tab" aria-controls="tab-four" aria-selected="true">Lametonas</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nav-tab-five" data-bs-toggle="tab" data-bs-target="#tab-five" type="button" role="tab" aria-controls="tab-five" aria-selected="false">Mordedores</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nav-tab-six" data-bs-toggle="tab" data-bs-target="#tab-six" type="button" role="tab" aria-controls="tab-six" aria-selected="false">P/ Paseo</button>
+                </li>
+            </ul>
+        </div>
+        <!--End nav-tabs-->
+        <br>&nbsp<div class="tab-content wow fadeIn animated animated animated" id="myTabContent" style="visibility: visible;">
+            <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                <div class="row product-grid-4">
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    
+                                   <!-- imagen alfombra -->
+
+                                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                <img width="auto" height="200" src="../imagenes/alfombra10x301.png" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img width="auto" height="200" src="../imagenes/alfombra4.png" class="d-block w-100" alt="...">
+                                              </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Next</span>
+                                            </button>
+                                          </div>
+                                </div>
+                                                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                                
+                                <div class="rating-result" title="90%">
+                                    <span>
+                                        <span><b>Alfombra 10x30</b></span>
+                                    </span>
+                                </div>
+                                <div class="product-price">
+                                    <span><em>ARS</em></span>
+                                    <span class="old-price"><em>$1500</em></span><br>
+                                    <span>Vienen en varias medidas<br>
+                                      modelos y colores personalizados</span><br>
+                                      &nbsp
+                                </div>
+                                <div class="product-action-1 show">
+                                    <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/alfombra2.jpg" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/alfombra1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                                <div class="product-content-wrap">                            
+                                  <div class="rating-result" title="90%">
+                                      <span>
+                                          <span><b>Alfombra 30x30</b></span>
+                                      </span>
+                                  </div>
+                                  <div class="product-price">
+                                      <span><em>ARS</em></span>
+                                      <span class="old-price"><em>$3500</em></span><br>
+                                      <span>Vienen en varias medidas<br>
+                                        modelos y colores personalizados</span>
+                                  </div>
+                                  <div class="product-action-1 show">
+                                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/alfombra40x401.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/alfombra3.jpg" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                              </div>
+
+                            
+                                  <div class="rating-result" title="90%">
+                                    <span>
+                                      <span>
+                                        <span><b>Alfombra 40x40</b></span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$4500</em></span><br>
+                                  <span>Vienen en varias medidas<br>
+                                    modelos y colores personalizados</span>
+                                </div>
+                                <div class="product-action-1 show">
+                                    <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/floramarilla1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/floramarilla2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                                <div class="product-content-wrap">                            
+                                  <div class="rating-result" title="90%">
+                                      <span>
+                                          <span><b>Flor Amarilla Floricienta </b></span>
+                                      </span>
+                                  </div>
+                                  <div class="product-price">
+                                      <span><em>ARS</em></span>
+                                      <span class="old-price"><em>$2400</em></span><br>
+                                      <span>Esta hermosa alfombra primaveral tiene 2 texturas diferentes para esconder.<br>
+                                        </span>
+                                  </div>
+                                  <div class="product-action-1 show">
+                                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                                
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-xs-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/alfombraportatil1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/alfombraportatil2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Alfombra Pórtatil</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2500</em></span><br>
+                                  <span>Ideal para los viajes largos o cortos. Tiene una base impermeable y cierre para no manchar a la hora de guardar.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-xs-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/pizzadog1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/pizzadog2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+
+                               
+                            </div>
+
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>PizzaDog</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2500</em></span><br>
+                                  <span>SI buscabas algo único y original para tu perri no te podes perder esta alfombra olfativa en formato pizza.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-xs-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/2shawarmi1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/2shawarmi2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Shawarmi</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2000</em></span><br>
+                                  <span>Otra forma de olfatear a través de capas. Tiene mucho lugar para esconder.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/tacopet1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/tacopet2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Taco Pet</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2500</em></span><br>
+                                  <span>El perro tiene que meter su hocico en cada agujero, nueva experiencia olfativa.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End product-grid-4-->
+            </div>
+            <!--En tab one (Featured)-->
+            <div class="tab-pane fade" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
+                <div class="row product-grid-4">
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/2kong1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/dispensadores4.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls9" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Kong Classic </b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$5700</em></span><br>
+                                  <span>El juguete perfecto para rellenar, morder y buscar comida.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/2rubdyxl1.jpg" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/2rugbyxl2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls10" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Rugby XL</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$3000</em></span><br>
+                                  <span>Dispensador especial para comida seca y humera de la parte exterior. Para perros grandes.</span><br>
+                                  &nbsp
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls11" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/2aro1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/2aro2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls11" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls11" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Aro</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2200</em></span><br>
+                                  <span>Rellenable, lavable y especial para congelar. Para perros medianos y grandes.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls12" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/2huesotextura1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/2huesotextura2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls12" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls12" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Hueso c/ textura</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2500</em></span><br>
+                                  <span>Dispensador con dos orificios especial para pasta o comida seca.
+                                    Centro texturizado para comida pastosa.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                   <!-- imagen alfombra -->
+
+                                   <div id="carouselExampleControls13" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img width="auto" height="200" src="../imagenes/dispensadores2.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img width="auto" height="200" src="../imagenes/2kongwobbler1.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls13" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls13" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                </div>
+                               
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Kong Wobbler Large</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$11500</em></span><br>
+                                  <span>Juguete rellenable que funciona como dispensador de croquetas, se desenrosca fácilmente para rellenarlo.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                   <!-- imagen alfombra -->
+
+                                   <div id="carouselExampleControls14" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img width="auto" height="200" src="../imagenes/2konglock1.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img width="auto" height="200" src="../imagenes/2konglock2.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls14" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls14" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Kong lock-it</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$4000</em></span><br>
+                                  <span>Es un juguete de bocados que entretiene y a la vez mantiene a los perros ocupados mientras comen.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls15" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/2rugby1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/dispensadores1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls15" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls15" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Rugby Mordedor</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2800</em></span><br>
+                                  <span>Tiene espacio para colocar comida o comida pastosa, para perros que amen morder.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                  <!-- imagen alfombra -->
+
+                                  <div id="carouselExampleControls16" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img width="auto" height="200" src="../imagenes/2serpiente1.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img width="auto" height="200" src="../imagenes/dispensadores3.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls16" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls16" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Serpiente</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$3800</em></span><br>
+                                  <span>Juguete para perro ideal para poner comida húmeda y seca.
+
+                                    Vibora para poner Snacks TPR</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End product-grid-4-->
+            </div>
+            <!--En tab two (Popular)-->
+            <div class="tab-pane fade" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
+                <div class="row product-grid-4">
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls17" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3sogamultiflex1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3sogamultiflex2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls17" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls17" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Soga Multiflex</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$1800</em></span><br>
+                                  <span>Especial para cachorro, perros medianos y para jugar entre dos perros.</span><br>
+                                  &nbsp
+                              </div>
+                            </div>
+                              
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls18" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3sogareforzada1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3sogareforzada2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls18" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls18" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Soga Reforzada</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$1500</em></span><br>
+                                  <span>Soga reforzada con doble nudo,
+                                    para perros con mordida grande.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                   <!-- imagen alfombra -->
+
+                                   <div id="carouselExampleControls19" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img width="auto" height="200" src="../imagenes/3sogacandy1.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img width="auto" height="200" src="../imagenes/3sogacandy2.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls19" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls19" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Candy Flex</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$1100</em></span><br>
+                                  <span>Es un intermedio entre la multiflex y Reforzada. Tiene un nudo muy fuerte y flexible.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls20" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3manijaflex1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3manijaflex2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls20" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls20" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Manija Flex</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$1900</em></span><br>
+                                  <span>Soga con manija para un mejor agarre. Mide 30cm</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls21" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3senorsoguin1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3senorsoguin2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls21" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls21" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Señor Soguin</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$1500</em></span><br>
+                                  <span>El muñeco que todos los perros desean tener.<br>El mejor amigo para tu amigo.
+
+                                    Viene en 2 tamaños.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls22" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3sogat1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3sogat2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls22" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls22" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Soga T</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$1800</em></span><br>
+                                  <span>Soga Flex con shark para poner comida y flecos.
+
+                                    Medida: 50cm.
+                                    
+                                    Especial para motivar el juego a pleno.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls23" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3sogaball1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3sogaball2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls23" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls23" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>Soga Ball 40cm</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$2500</em></span><br>
+                                  <span>Soga con pelota flexible
+
+                                    Se le pueden poner snacks grandes en la parte de adentro. Recomendados para fomentar el juego.</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <!-- imagen alfombra -->
+
+                                    <div id="carouselExampleControls24" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img width="auto" height="200" src="../imagenes/3triflex1.png" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img width="auto" height="200" src="../imagenes/3triflex2.png" class="d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls24" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls24" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                            <div class="product-content-wrap">                            
+                              <div class="rating-result" title="90%">
+                                  <span>
+                                      <span><b>TriFlex</b></span>
+                                  </span>
+                              </div>
+                              <div class="product-price">
+                                  <span><em>ARS</em></span>
+                                  <span class="old-price"><em>$700</em></span><br>
+                                  <span>Una soga triple para jugar entre 3 sean perros o perros y humanos.
+
+                                    Cada punta mide 20cm</span>
+                              </div>
+                              <div class="product-action-1 show">
+                                  <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End product-grid-4-->
+            </div>
+            <!--En tab three (New added)-->
+<!--End tab three (Featured)-->
+<div class="tab-pane fade" id="tab-four" role="tabpanel" aria-labelledby="tab-four">
+    <div class="row product-grid-4">
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls25" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/4lametona1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/4lametona2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls25" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls25" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                     
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Lametonas</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1200</em></span><br>
+                      <span>Ideal para cuando los dejamos solos y queremos que se entretengan. Recomendación: usarlo en las esquinas ya que no son antideslizantes.</span><br>
+                      &nbsp
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls26" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/4pez1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/4pez2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls26" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls26" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Lickymat Pez</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$3000</em></span><br>
+                      <span>Comedero Comelento para gat@s y perr@s tipo Lickimat, es un producto pensado para que tu gato o perro coma de forma moderada.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls27" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/4mordilloG1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/4mordilloG2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls27" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls27" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Mordillo c/pie Grande</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$3000</em></span><br>
+                      <span>deal para los perros que muerden muchoooo. Se le puede untar pastita y llevar al frizzer para más diversión.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls28" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/4mordillop1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/4mordillop2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls28" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls28" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Mordillo c/pie chico</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$2400</em></span><br>
+                      <span>Ideal para morder, perros chicos. Materia: silicona super resistente</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+          </div></div>
+    <!--End product-grid-4-->
+</div>
+<!--End tab four -->
+<div class="tab-pane fade" id="tab-five" role="tabpanel" aria-labelledby="tab-five">
+    <div class="row product-grid-4">
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls33" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/mordedores1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/5huesofibra2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls33" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls33" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Hueso Fibras Naturales</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$2000</em></span><br>
+                      <span>Especial para morder. Limpia los dientes para perros grandes/medianos con mordida fuerte.</span><br>
+                      &nbsp<br>&nbsp
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls34" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/5firsbee1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/5firsbee2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls34" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls34" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Frisbee silicona</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>1000</em></span><br>
+                      <span>Material: silicona flexible. Liviano, recomendado para perros de razas pequeñas y medianas. Flota en el agua.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls35" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/5glowbrilla1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/5glowbrilla2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls35" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls35" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Glow brilla en la oscuridad</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1700</em></span><br>
+                      <span>Pelota con chifle y brilla en La oscuridad al cargarla con luz solar, lámpara, o luz del celu. Ideal para jugar de noche.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls36" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/5mordedorchifle1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/5mordedorchifle2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls36" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls36" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Mordedores c/chifle puppy</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$2000</em></span><br>
+                      <span>Cerdito o Cocodrilo
+
+                        Ambos son aptos para cachorros, son super tiernos y es ideal como primer mordedor para esos dientitos.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                       <!-- imagen alfombra -->
+
+                       <div id="carouselExampleControls37" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img width="auto" height="200" src="../imagenes/5pata1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img width="auto" height="200" src="../imagenes/5pata2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls37" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls37" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Patita de pollo</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$950</em></span><br>
+                      <span>Es un buen juguete para mordedores primerizos</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                       <!-- imagen alfombra -->
+
+                       <div id="carouselExampleControls38" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img width="auto" height="200" src="../imagenes/5pelotama1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img width="auto" height="200" src="../imagenes/5pelotama2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls38" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls38" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Pelota Mazisa</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$720</em></span><br>
+                      <span>Ideal para perros con mordida fuerte en dos tamaños.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls39" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/5sbone1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/5sbone2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls39" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls39" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>S Bone</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$2750</em></span><br>
+                      <span>Este atractivo y resistente juguete mantendrá a tu perro ocupado todo el día! Con sabor a pollo añadido, a tu perro le encantará.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                      <!-- imagen alfombra -->
+
+                      <div id="carouselExampleControls40" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img width="auto" height="200" src="../imagenes/5pelotachifle1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img width="auto" height="200" src="../imagenes/5pelotachifle2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls40" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls40" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Pelota Chifle Pinchos</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1500</em></span><br>
+                      <span>Pelota TPR con chifle único color.
+
+                        Material resistente</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--End product-grid-4-->
+</div>
+<!--End tab five -->
+<div class="tab-pane fade" id="tab-six" role="tabpanel" aria-labelledby="tab-six">
+    <div class="row product-grid-4">
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls41" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/6bolsita1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/platoplegable1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls41" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls41" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Bolsitas</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$990</em></span><br>
+                      <span>Un pack contiene 3 rollos de bolsitas</span><br>
+                      &nbsp<br>&nbsp<br>&nbsp<br>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls42" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/6correa151.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/6correa152.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls42" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls42" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Correa Larga 15mm grosor</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1100</em></span><br>
+                      <span>El largo ideal para pasear es de 3 metros. Le damos la libertad que necesita y si paseamos desde cachorros aprenden a no tironear.</span>
+                     <br>&nbsp
+                    </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls43" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/6correa201.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/6correa202.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls43" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls43" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Correa Larga 20mm grosor</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1500</em></span><br>
+                      <span>Todas vienen cocidas con máquinas industriales y un remache para mayor seguridad.
+
+                        Ganchos bien resistentes.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls44" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/6correa251.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/6correa252.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls44" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls44" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Correa Larga 25mm grosor</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1500</em></span><br>
+                      <span>Ideal para perros grandes. Todas vienen con remache y cocidas con maquinas industriales para una mejor seguridad.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                       <!-- imagen alfombra -->
+
+                       <div id="carouselExampleControls45" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img width="auto" height="200" src="../imagenes/6militar1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img width="auto" height="200" src="../imagenes/6militar2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls45" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls45" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Correa Militar</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$1900</em></span><br>
+                      <span>Correa camuflajeada estilo militar de 2 y 3 metros. 8 remaches. Grosor 2,5cm. Gancho grande.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                       <!-- imagen alfombra -->
+
+                       <div id="carouselExampleControls46" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img width="auto" height="200" src="../imagenes/6mochilita1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img width="auto" height="200" src="../imagenes/6mochilita2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls46" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls46" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Mochila de Paseo</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$10000</em></span><br>
+                      <span>Hecho de tela Oxford resistente a los arañazos 600D y policarbonato resistente a los golpes, se adapta a gatos y perros de hasta 5 kg.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                        <!-- imagen alfombra -->
+
+                        <div id="carouselExampleControls47" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img width="auto" height="200" src="../imagenes/6plegable1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img width="auto" height="200" src="../imagenes/6plegable2.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls47" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls47" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Plato Plegable</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$900</em></span><br>
+                      <span>Especial para viaje y paseos.
+
+                        Con gancho para agarre. 
+                        
+                        Meteríal: Silicona
+                        
+                        Medida: chico/ grande</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+            <div class="product-cart-wrap mb-30">
+                <div class="product-img-action-wrap">
+                    <div class="product-img product-img-zoom">
+                      <!-- imagen alfombra -->
+
+                      <div id="carouselExampleControls48" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img width="auto" height="200" src="../imagenes/6pretal1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img width="auto" height="200" src="../imagenes/6pretal2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls48" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls48" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="product-content-wrap">                            
+                  <div class="rating-result" title="90%">
+                      <span>
+                          <span><b>Pretal Antitirones</b></span>
+                      </span>
+                  </div>
+                  <div class="product-price">
+                      <span><em>ARS</em></span>
+                      <span class="old-price"><em>$2500</em></span><br>
+                      <span>Pretal Sensible Anti-Tirones para RAZAS FUERTES
+
+                        mejorara el paseo con tu perro. Uso típico: paseo en ciudad y/o adiestramiento.</span>
+                  </div>
+                  <div class="product-action-1 show">
+                      <a aria-label="Add To Cart" class="action-btn hover-up" href="shop-cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--End product-grid-4-->
+</div>
+<!--En tab six -->
+
+        </div>
+        <!--End tab-content-->
+    </div>
+</section>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class=" btn float-end btn-dark">
+      <a href="#" style="color: white"> Volver arriba</a>
+    </p>
+    <ul class="list-unstyled d-flex" style="margin-left:20%">
+        <li class="ms-3"><a href="https://www.instagram.com/drago.arya"> <img src="../imagenes/logo_Instagram.jpg" width="50" height="50"></a></li>
+        <li class="ms-3"><a href="https://api.whatsapp.com/message/QZOHX466X4XYB1?autoload=1&app_absent=0"> <img src="../imagenes/logo whatsapp.jpg" width="50" height="50"></a></li>
+        <li class="ms-3"><a href="https://www.tiktok.com/@drago.arya"> <img src="../imagenes/logo_tiktok.jpg" width="50" height="50"></a></li>
+        <li class="ms-3"><a href="https://www.youtube.com/@dragoyarya981"> <img src="../imagenes/logo_yotube.jpg" width="50" height="50"></a> </li>
+        <p class="mb-3 mb-md-0 text-muted" >Realizado por Gabriel Quispe &copy; 2022 <br>Company, Inc. All rights reserved.
+        </p></ul>
+          
+
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js" integrity="sha512-PqRelaJGXVuQ81N6wjUrRQelCDR7z8RvKGiR9SbSxKHPIt15eJDmIVv9EJgwq0XvgylszsjzvQ0+VyI2WtIshQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <!-- <script src="js/noticia.js"></script> -->
+    
 </body>
 </html>
